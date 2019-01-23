@@ -120,6 +120,25 @@ UDP - what if you don't want to ensure gurantee delievery? when would you want t
 
 Going onto HTTPS
 
+## What actually happens on websites?
+
+Lets navigate to Reddit.
+
+Click F12/Function F12 or secondary click and click inspect element in chrome to get chrome dev tools 
+
+Network tab lets you track the requests going in and out. 
+
+XHR is the interesting ones: stuff that actually happens with websites.
+
+watch your transactions while you login!
+
+then go add a comment, watch your transactions. look for ones that say xhr.
+
+you can copy these then run them again! on your own in the console tab. Copy > as fetch. 
+
+you can change the content and it works! 
+
+Https vs Http
 
 ## Book Lists
 
